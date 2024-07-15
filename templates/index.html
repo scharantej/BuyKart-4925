@@ -1,0 +1,29 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Appointment Scheduling App</title>
+</head>
+<body>
+<h1>Appointment Scheduling App</h1>
+<p>
+Use this app to book an appointment with me. Please select your preferred appointment duration and time slot below.
+</p>
+<form action="/book" method="post">
+<label for="duration">Appointment Duration:</label>
+<select name="duration" id="duration">
+<option value="15">15 minutes</option>
+<option value="30">30 minutes</option>
+<option value="60">60 minutes</option>
+</select>
+<br>
+<label for="time">Appointment Time:</label>
+<input type="time" name="time" id="time">
+<br>
+<input type="submit" value="Book Appointment">
+</form>
+</body>
+</html>
+
+
